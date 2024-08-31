@@ -74080,7 +74080,7 @@
       );
     },
     yue = 425,
-    Eue = 725,
+    Eue = 820,
     RC = Yr($r.WIDGET),
     Eg = Ut(RC("div", "chat"), {
       width: yue,
