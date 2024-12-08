@@ -248,6 +248,75 @@
   --fonts-default: 'Sanchez', serif;
 }
 
+/* Mobile-only styles */
+@media (max-width: 767px) and (any-pointer: coarse) and (any-hover: none), 
+       (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+       (max-width: 767px) and (min-resolution: 192dpi) {
+  .vfrc-proactive-message {
+    font-size: 7px;
+  }
+
+  .vfrc-assistant-info--title {
+    font-size: 9px;
+  }
+
+  .vfrc-message {
+    font-size: 8px;
+  }
+
+  .c-PJLV-jueArD-from-system {
+    font-size: 9px;
+  }
+
+  .vfrc-button--secondary {
+    font-size: 9px;
+  }
+
+  .vfrc-header--title {
+    font-size: 9px;
+  }
+
+  .c-cejRVw {
+    font-size: 8px;
+  }
+
+  .vfrc-assistant-info--description {
+    font-size: 8px;
+  }
+
+  .vfrc-chat-input textarea,
+  .vfrc-chat-input textarea:focus,
+  .vfrc-chat-input textarea:active,
+  .vfrc-chat-input textarea:focus-visible {
+    font-size: 9px !important;
+  }
+
+  .vfrc-chat-input--button {
+    font-size: 8px;
+  }
+  
+  .c-PJLV-gJqBfM-from-user {
+    font-size: 9px !important;
+  }
+}
+
+/* iOS-specific fixes */
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 767px) {
+    .c-PJLV-gJqBfM-from-user {
+      font-size: 9px !important;
+    }
+  }
+}
+
+/* Additional mobile detection for older devices */
+@media only screen and (max-device-width: 767px),
+       only screen and (max-device-height: 767px) and (orientation: landscape) {
+  .c-PJLV-gJqBfM-from-user {
+    font-size: 9px !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .vfrc-widget--chat {
     border-radius: 20px;
