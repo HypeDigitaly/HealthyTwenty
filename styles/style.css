@@ -253,7 +253,8 @@
        (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
        (max-width: 767px) and (min-resolution: 192dpi) {
   .vfrc-proactive-message {
-    font-size: 9px;
+    font-size: 10px;
+    padding: 4px 8px !important;
   }
   
   .vfrc-assistant-info--title {
@@ -305,22 +306,26 @@
   }
 
   .vfrc-launcher {
-    width: 72px !important;
-    height: 72px !important;
+    width: 82px !important;
+    height: 82px !important;
   }
 }
 
 /* iOS-specific fixes */
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
+    .vfrc-proactive-message {
+      padding: 4px 8px !important;
+    }
+    
     .c-fYYkXN {
       display: flex !important;
       align-items: center !important;
     }
     
     .vfrc-launcher {
-      width: 72px !important;
-      height: 72px !important;
+      width: 82px !important;
+      height: 82px !important;
     }
   }
 }
@@ -328,14 +333,18 @@
 /* Additional mobile detection for older devices */
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
+  .vfrc-proactive-message {
+    padding: 4px 8px !important;
+  }
+  
   .c-fYYkXN {
     display: flex !important;
     align-items: center !important;
   }
   
   .vfrc-launcher {
-    width: 72px !important;
-    height: 72px !important;
+    width: 82px !important;
+    height: 82px !important;
   }
 }
 
