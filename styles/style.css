@@ -23,17 +23,6 @@
   width: 72px;
   height: 72px;
   background-color: rgb(255 255 255);
-  border: #000000 1px solid;
-}
-
-/* picture avatar small */
-.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-idGGCtY-css {
-  width: 55px;
-  height: 55px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-color: #ffffff;
-  border-radius: 20px;
 }
 
 .c-dzcdPv .vfrc-header--button {
@@ -45,6 +34,16 @@
   height: 32px;
   width: 32px;
   transition: all 100ms ease 0s;
+}
+
+.c-iCDrnV .c-kIbiaN {
+  width: 40px;
+  height: 40px;
+  background-color: #C8A137;
+}
+
+.c-kDxFae > .c-iBVlvN {
+  padding: 0 var(--space-5) 0 65px;
 }
 
 .vfrc-chat-dialog {
@@ -68,17 +67,16 @@
 }
 
 .c-bXTvXv-lckiv-type-info {
-  background-color: #000000;
+  background-color: #C8A137;
 }
 
 .c-bXTvXv-lckiv-type-info:hover {
-  background-color: #161616;
+  background-color: #C8A137;
 }
 
 .vfrc-message {
   font-weight: 400;
   border-radius: 20px;
-  font-size: 16px;
 }
 
 .c-fYYkXN {
@@ -94,75 +92,61 @@
   margin-left: -1px;
 }
 
-/* Updated text input styling with vertical alignment and padding */
-.vfrc-chat-input textarea {
-  text-align: left;
-  font-size: 16px;
-  color: #000000;
-  padding-left: 15px;
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
-}
-
 .vfrc-button--secondary {
   display: inline-block;
-  border: 1px solid #000000;
+  border: 1px solid #C8A137;
   font-size: 16px;
   font-weight: 500;
   border-radius: 20px;
   padding: 9px 13px;
   margin: 0px;
   box-sizing: border-box;
-  background-color: white;
+  background-color: transparent;
   color: #002b45;
   cursor: pointer;
   transition: background-color 50ms ease-in-out 0s,
     border-color 100ms ease-in-out 0s;
   white-space: normal;
   text-align: left;
+  font-size: 16px;
 }
 
 .vfrc-button--secondary:hover {
   background-color: #add8e6;
-  border-color: rgba(0, 24, 39, 0.7);
+  border-color: rgba(0, 43, 69, 0.7);
 }
 
 .vfrc-header--title {
   color: #fffffffa;
-  font-size: 18px;
-}
-
-.vfrc-launcher img {
-  width: 72px;
-  height: 72px;
-  border-radius: 40px;
+  font-size: 16px;
 }
 
 .vfrc-proactive-message {
-  border: rgb(0, 0, 0) 1px solid;
-  text-align: left !important;
   font-weight: 700;
 }
 
+.c-bQoszf > img {
+  display: none;
+}
+
 .vfrc-launcher {
-  width: 75px;
-  height: 75px;
+  width: 110px;
+  height: 110px;
   border: none;
   animation: fadeIn 0.5s ease-in-out;
   transition: transform 150ms ease 0s !important;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/voiceglow-cdn/o/public%2Fkytk0j3f_.jpg?alt=media&token=2eed1ae4-662b-43f8-b80e-f6d44f080637") !important;
   background-size: cover !important;
   background-position: center !important;
   border: transparent;
-  background-color: #ffffff !important;
+  background-color: transparent;
   box-shadow: none;
-  border-radius: 50%;
 }
 
 .vfrc-launcher:hover {
   transform: scale(1.1);
   opacity: 0.8; 
-  background-color: white;
+  background-color: transparent;
 }
 
 @keyframes fadeIn {
@@ -181,50 +165,36 @@
   height: 24px !important;
 }
 
-.c-kDxFae > .c-bwlaNm, .c-kDxFae > .c-gSBsRr {
-  padding-left: 5px;
-}
-
-.c-gSBsRr .c-kIbiaN {
-  margin: 0px !important;
-}
-
 .vfrc-header--button:nth-of-type(2) .vfrc-icon {
   width: 24px !important;
   height: 24px !important;
 }
 
-.vfrc-launcher:hover {
-  background-color: none;
-}
-
-/* text footer mark - Updated size and weight */
+/* text footer mark */
 .c-cejRVw {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0 var(--space-3) 0;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 17px;
-  color: #000000;
+  color: #000dff;
 }
 
 /* color footer mark/ your brand/ */
 .c-cejRVw a {
-  color: #000000;
+  color: #C8A137;
 }
 
 .vfrc-footer--watermark {
-  color: #000000;
+  color: #C8A137;
 }
 
 /* color header/ change here */
 .vfrc-header {
-  background-color: #000000;
+  background-color: #C8A137;
   height: 66px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 
 /* color of the name of the agent/ change here */
@@ -234,7 +204,7 @@
 
 /* cancel chat color */
 .c-bXTvXv-igaDqE-type-subtle {
-  background-color: #000000;
+  background-color: #F5A524;
   color: #ffffff;
 }
 
@@ -242,23 +212,40 @@
   color: #ffffff;
 }
 
-/* Base AI message styling */
 .c-PJLV-jueArD-from-system {
   text-align: left !important;
-  font-size: 16px;
 }
 
-/* Base user message styling */
+/* message send from user */
 .c-PJLV-gJqBfM-from-user {
-  background-color: #000000;
+  background-color: #A0812C;
   color: #ffffff;
   text-align: left !important;
-  font-size: 16px;
 }
 
 .vfrc-proactive-message {
-  border: rgb(0, 0, 0) 1px solid;
+  border: #C8A137 1px solid;
   text-align: left !important;
+}
+
+.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-iemeKBS-css {
+  width: 35px;
+  height: 35px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: #ffffff;
+}
+
+/* color text area */
+.vfrc-chat-input textarea,
+.vfrc-chat-input--button {
+  color: #000000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+
+:host {
+  --fonts-default: 'Sanchez', serif;
 }
 
 /* Mobile-only styles */
@@ -267,11 +254,11 @@
        (max-width: 767px) and (min-resolution: 192dpi) {
   .vfrc-proactive-message {
     font-size: 10px;
-    padding: 5px 8px !important;
+    padding: 4px 8px !important;
   }
-
+  
   .vfrc-assistant-info--title {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .vfrc-message {
@@ -279,32 +266,19 @@
   }
 
   .c-PJLV-jueArD-from-system {
-    width: 125% !important;
-    max-width: 125% !important;
-    margin-right: -25% !important;
-    font-size: 13px;
-  }
-
-  .c-PJLV-gJqBfM-from-user {
-    width: 125% !important;
-    max-width: 125% !important;
-    margin-right: -25% !important;
-    font-size: 15px !important;
+    font-size: 12px;
   }
 
   .vfrc-button--secondary {
-    font-size: 13px;
-    margin-left: 10px !important;
-    margin-right: -3px !important;
+    font-size: 12px;
   }
 
   .vfrc-header--title {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .c-cejRVw {
     font-size: 11px;
-    font-weight: 700;
   }
 
   .vfrc-assistant-info--description {
@@ -315,50 +289,43 @@
   .vfrc-chat-input textarea:focus,
   .vfrc-chat-input textarea:active,
   .vfrc-chat-input textarea:focus-visible {
-    font-size: 13px !important;
-    text-align: left !important;
-    -webkit-text-size-adjust: none;
-    padding-left: 15px;
-    padding-bottom: 2px !important;
-    height: calc(100% - 4px) !important;
-    min-height: auto !important;
-    margin: 2px 0 !important;
+    font-size: 12px !important;
+  }
+
+  .c-fYYkXN {
+    display: flex !important;
+    align-items: center !important;
   }
 
   .vfrc-chat-input--button {
     font-size: 11px;
+  }
+  
+  .c-PJLV-gJqBfM-from-user {
+    font-size: 12px !important;
+  }
+
+  .vfrc-launcher {
+    width: 82px !important;
+    height: 82px !important;
   }
 }
 
 /* iOS-specific fixes */
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
-    .c-PJLV-jueArD-from-system {
-      width: 125% !important;
-      max-width: 125% !important;
-      margin-right: -25% !important;
+    .vfrc-proactive-message {
+      padding: 4px 8px !important;
     }
-
-    .c-PJLV-gJqBfM-from-user {
-      width: 125% !important;
-      max-width: 125% !important;
-      margin-right: -25% !important;
-      font-size: 15px !important;
+    
+    .c-fYYkXN {
+      display: flex !important;
+      align-items: center !important;
     }
-
-    .vfrc-chat-input textarea,
-    .vfrc-chat-input textarea:focus,
-    .vfrc-chat-input textarea:active,
-    .vfrc-chat-input textarea:focus-visible {
-      padding-bottom: 2px !important;
-      height: calc(100% - 4px) !important;
-      min-height: auto !important;
-      margin: 2px 0 !important;
-    }
-
-    .vfrc-button--secondary {
-      margin-left: 10px !important;
-      margin-right: -3px !important;
+    
+    .vfrc-launcher {
+      width: 82px !important;
+      height: 82px !important;
     }
   }
 }
@@ -366,32 +333,18 @@
 /* Additional mobile detection for older devices */
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
-  .c-PJLV-jueArD-from-system {
-    width: 125% !important;
-    max-width: 125% !important;
-    margin-right: -25% !important;
+  .vfrc-proactive-message {
+    padding: 4px 8px !important;
   }
-
-  .c-PJLV-gJqBfM-from-user {
-    width: 125% !important;
-    max-width: 125% !important;
-    margin-right: -25% !important;
-    font-size: 15px !important;
+  
+  .c-fYYkXN {
+    display: flex !important;
+    align-items: center !important;
   }
-
-  .vfrc-chat-input textarea,
-  .vfrc-chat-input textarea:focus,
-  .vfrc-chat-input textarea:active,
-  .vfrc-chat-input textarea:focus-visible {
-    padding-bottom: 2px !important;
-    height: calc(100% - 4px) !important;
-    min-height: auto !important;
-    margin: 2px 0 !important;
-  }
-
-  .vfrc-button--secondary {
-    margin-left: 10px !important;
-    margin-right: -3px !important;
+  
+  .vfrc-launcher {
+    width: 82px !important;
+    height: 82px !important;
   }
 }
 
