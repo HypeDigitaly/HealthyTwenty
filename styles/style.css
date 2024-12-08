@@ -266,8 +266,17 @@
   }
 
   .c-PJLV-jueArD-from-system {
+    width: 125% !important;
+    max-width: 125% !important;
+    margin-right: -25% !important;
     font-size: 13px;
-    margin-right: -15% !important;
+  }
+
+  .c-PJLV-gJqBfM-from-user {
+    width: 125% !important;
+    max-width: 125% !important;
+    margin-right: -25% !important;
+    font-size: 15px !important;
   }
 
   .vfrc-button--secondary {
@@ -301,11 +310,6 @@
   .vfrc-chat-input--button {
     font-size: 12px;
   }
-  
-  .c-PJLV-gJqBfM-from-user {
-    font-size: 13px !important;
-    margin-right: -15% !important;
-  }
 
   .vfrc-launcher {
     width: 82px !important;
@@ -317,11 +321,16 @@
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
     .c-PJLV-jueArD-from-system {
-      margin-right: -15% !important;
+      width: 125% !important;
+      max-width: 125% !important;
+      margin-right: -25% !important;
     }
     
     .c-PJLV-gJqBfM-from-user {
-      margin-right: -15% !important;
+      width: 125% !important;
+      max-width: 125% !important;
+      margin-right: -25% !important;
+      font-size: 15px !important;
     }
     
     .c-fYYkXN {
@@ -340,11 +349,16 @@
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
   .c-PJLV-jueArD-from-system {
-    margin-right: -15% !important;
+    width: 125% !important;
+    max-width: 125% !important;
+    margin-right: -25% !important;
   }
   
   .c-PJLV-gJqBfM-from-user {
-    margin-right: -15% !important;
+    width: 125% !important;
+    max-width: 125% !important;
+    margin-right: -25% !important;
+    font-size: 15px !important;
   }
   
   .c-fYYkXN {
