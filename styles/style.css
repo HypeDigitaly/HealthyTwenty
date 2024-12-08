@@ -253,50 +253,55 @@
        (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
        (max-width: 767px) and (min-resolution: 192dpi) {
   .vfrc-proactive-message {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .vfrc-assistant-info--title {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .vfrc-message {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .c-PJLV-jueArD-from-system {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .vfrc-button--secondary {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .vfrc-header--title {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .c-cejRVw {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .vfrc-assistant-info--description {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .vfrc-chat-input textarea,
   .vfrc-chat-input textarea:focus,
   .vfrc-chat-input textarea:active,
   .vfrc-chat-input textarea:focus-visible {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 
   .vfrc-chat-input--button {
-    font-size: 8px;
+    font-size: 11px;
   }
   
   .c-PJLV-gJqBfM-from-user {
-    font-size: 9px !important;
+    font-size: 12px !important;
+  }
+
+  .vfrc-launcher {
+    width: 55px !important;
+    height: 55px !important;
   }
 }
 
@@ -304,7 +309,7 @@
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
     .c-PJLV-gJqBfM-from-user {
-      font-size: 9px !important;
+      font-size: 12px !important;
     }
   }
 }
@@ -313,7 +318,7 @@
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
   .c-PJLV-gJqBfM-from-user {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 }
 
