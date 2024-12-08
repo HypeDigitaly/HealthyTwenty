@@ -258,38 +258,39 @@
   }
   
   .vfrc-assistant-info--title {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .vfrc-message {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .c-PJLV-jueArD-from-system {
-    font-size: 12px;
+    font-size: 13px;
+    margin-right: 15% !important;
   }
 
   .vfrc-button--secondary {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .vfrc-header--title {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .c-cejRVw {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .vfrc-assistant-info--description {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .vfrc-chat-input textarea,
   .vfrc-chat-input textarea:focus,
   .vfrc-chat-input textarea:active,
   .vfrc-chat-input textarea:focus-visible {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   .c-fYYkXN {
@@ -298,11 +299,12 @@
   }
 
   .vfrc-chat-input--button {
-    font-size: 11px;
+    font-size: 12px;
   }
   
   .c-PJLV-gJqBfM-from-user {
-    font-size: 12px !important;
+    font-size: 13px !important;
+    margin-right: 15% !important;
   }
 
   .vfrc-launcher {
@@ -314,8 +316,12 @@
 /* iOS-specific fixes */
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
-    .vfrc-proactive-message {
-      padding: 4px 8px !important;
+    .c-PJLV-jueArD-from-system {
+      margin-right: 15% !important;
+    }
+    
+    .c-PJLV-gJqBfM-from-user {
+      margin-right: 15% !important;
     }
     
     .c-fYYkXN {
@@ -333,8 +339,12 @@
 /* Additional mobile detection for older devices */
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
-  .vfrc-proactive-message {
-    padding: 4px 8px !important;
+  .c-PJLV-jueArD-from-system {
+    margin-right: 15% !important;
+  }
+  
+  .c-PJLV-gJqBfM-from-user {
+    margin-right: 15% !important;
   }
   
   .c-fYYkXN {
