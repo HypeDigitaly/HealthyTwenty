@@ -253,9 +253,9 @@
        (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
        (max-width: 767px) and (min-resolution: 192dpi) {
   .vfrc-proactive-message {
-    font-size: 11px;
+    font-size: 9px;
   }
-
+  
   .vfrc-assistant-info--title {
     font-size: 12px;
   }
@@ -291,6 +291,11 @@
     font-size: 12px !important;
   }
 
+  .c-fYYkXN {
+    display: flex !important;
+    align-items: center !important;
+  }
+
   .vfrc-chat-input--button {
     font-size: 11px;
   }
@@ -300,16 +305,22 @@
   }
 
   .vfrc-launcher {
-    width: 55px !important;
-    height: 55px !important;
+    width: 72px !important;
+    height: 72px !important;
   }
 }
 
 /* iOS-specific fixes */
 @supports (-webkit-touch-callout: none) {
   @media (max-width: 767px) {
-    .c-PJLV-gJqBfM-from-user {
-      font-size: 12px !important;
+    .c-fYYkXN {
+      display: flex !important;
+      align-items: center !important;
+    }
+    
+    .vfrc-launcher {
+      width: 72px !important;
+      height: 72px !important;
     }
   }
 }
@@ -317,8 +328,14 @@
 /* Additional mobile detection for older devices */
 @media only screen and (max-device-width: 767px),
        only screen and (max-device-height: 767px) and (orientation: landscape) {
-  .c-PJLV-gJqBfM-from-user {
-    font-size: 12px !important;
+  .c-fYYkXN {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .vfrc-launcher {
+    width: 72px !important;
+    height: 72px !important;
   }
 }
 
