@@ -253,43 +253,43 @@
        (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
        (max-width: 767px) and (min-resolution: 192dpi) {
   .vfrc-proactive-message {
-    font-size: 10px;
+    font-size: 11px;
     padding: 4px 8px !important;
   }
   
   .vfrc-assistant-info--title {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .vfrc-message {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .c-PJLV-jueArD-from-system {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .vfrc-button--secondary {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .vfrc-header--title {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .c-cejRVw {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .vfrc-assistant-info--description {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .vfrc-chat-input textarea,
   .vfrc-chat-input textarea:focus,
   .vfrc-chat-input textarea:active,
   .vfrc-chat-input textarea:focus-visible {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   .c-fYYkXN {
@@ -298,11 +298,11 @@
   }
 
   .vfrc-chat-input--button {
-    font-size: 11px;
+    font-size: 13px;
   }
   
   .c-PJLV-gJqBfM-from-user {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   .vfrc-launcher {
